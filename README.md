@@ -45,7 +45,7 @@ A clean and modern web app that renders a minimalist CV/Resume with a print-frie
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/BartoszJarocki/cv.git
+   git clone https://github.com/thoomi/cv.git
    cd cv
    ```
 
