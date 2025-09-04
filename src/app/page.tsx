@@ -113,12 +113,6 @@ export default function ResumePage() {
                 <Skills skills={RESUME_DATA.skills} />
               </Suspense>
             </SectionErrorBoundary>
-
-            <SectionErrorBoundary sectionName="Projects">
-              <Suspense fallback={<SectionSkeleton lines={5} />}>
-                <Projects projects={RESUME_DATA.projects} />
-              </Suspense>
-            </SectionErrorBoundary>
           </div>
         </section>
 

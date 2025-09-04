@@ -75,6 +75,7 @@ const nextConfig = {
 
   // PoweredByHeader removes the X-Powered-By header
   poweredByHeader: false,
+  output: 'export',
 }
 
 module.exports = nextConfig
