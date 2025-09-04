@@ -76,6 +76,7 @@ const nextConfig = {
   // PoweredByHeader removes the X-Powered-By header
   poweredByHeader: false,
   output: 'export',
+  //assetPrefix: '/cv',
 }
 
 module.exports = nextConfig
