@@ -47,6 +47,16 @@ export interface ResumeData {
       href: string;
     };
   }>;
+  writing?: Array<{
+    title: string;
+    publication: string;
+    date: string;
+    description: string;
+    link?: {
+      label: string;
+      href: string;
+    };
+  }>;
 }
 
 // GraphQL compatible types (without React components)
@@ -90,6 +100,14 @@ export interface GraphQLProject {
   link?: GraphQLLink;
 }
 
+export interface GraphQLWriting {
+  title: string;
+  publication: string;
+  date: string;
+  description: string;
+  link?: GraphQLLink;
+}
+
 export interface GraphQLMe {
   name: string;
   initials: string;
@@ -104,6 +122,7 @@ export interface GraphQLMe {
   work: GraphQLWork[];
   skills: string[];
   projects: GraphQLProject[];
+  writing?: GraphQLWriting[];
 }
 
 // Helper function to convert React content to string
@@ -151,6 +170,13 @@ export function resumeDataToGraphQL(data: ResumeData): GraphQLMe {
       techStack: project.techStack,
       description: project.description,
       link: project.link,
+    })),
+    writing: data.writing?.map((writing) => ({
+      title: writing.title,
+      publication: writing.publication,
+      date: writing.date,
+      description: writing.description,
+      link: writing.link,
     })),
   };
 }

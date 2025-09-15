@@ -138,4 +138,16 @@ export const RESUME_DATA: ResumeData = {
   ],
   projects: [
   ],
+  writing: [
+    {
+      title: "Why I Stopped Using Design Patterns in ML Research Projects",
+      publication: "Personal Blog",
+      date: "Sep 2025",
+      description: "Discusses how overly complex software design patterns hindered research productivity in machine learning projects, advocating for simplified code architecture to enable faster iteration and better understanding.",
+      link: {
+        label: "Read Article",
+        href: "https://aboutblank.me/design-patterns-harm-ml-research/"
+      }
+    }
+  ],
 } as const;

@@ -11,6 +11,7 @@ import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 import { Summary } from "./components/Summary";
 import { WorkExperience } from "./components/WorkExperience";
+import { Writing } from "./components/Writing";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} - Resume`,
@@ -114,6 +115,16 @@ export default function ResumePage() {
               </Suspense>
             </SectionErrorBoundary>
           </div>
+
+          {RESUME_DATA.writing && RESUME_DATA.writing.length > 0 && (
+            <div className="mt-12 print:mt-8">
+              <SectionErrorBoundary sectionName="Writing">
+                <Suspense fallback={<SectionSkeleton lines={3} />}>
+                  <Writing writing={RESUME_DATA.writing} />
+                </Suspense>
+              </SectionErrorBoundary>
+            </div>
+          )}
         </section>
 
         <nav className="print:hidden" aria-label="Quick navigation">
