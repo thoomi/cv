@@ -8,7 +8,7 @@ export const RESUME_DATA: ResumeData = {
   about: "Senior Software Engineer for Machine Learning",
   summary: (
     <>
-      Accomplished software engineer with extensive experience in developing and optimizing advanced AI frameworks and training workloads.
+      I’m an accomplished software engineer who makes machine learning work in production. At Bosch, I co-created the ML framework that became the backbone for multiple teams, enabling smoother collaboration and faster experimentation. My work spans from optimizing training pipelines to deploying models on embedded systems—always with a focus on reliability and real-world impact.
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/4013007?v=4",
@@ -64,10 +64,13 @@ export const RESUME_DATA: ResumeData = {
               Successful customer demos of urban hands-free driving using solely cameras (vision only)
             </li>
             <li>
-              Software framework that significantly improved the training efficiency of a single multi-view, multi-task network on diverse and task-specific data, including seamless integration of temporal data
+              Software framework that boosted training efficiency for a multi-view, multi-task network and enabled seamless integration of temporal and task-specific data
             </li>
             <li>
-              Training optimization for A100 yielding 7-figure savings YoY
+              Streamlined training workflows, significantly lowering compute time and resource costs
+            </li>
+            <li>
+             Conducted technical interviews and coding assessments, helping hire strong engineers for the team
             </li>
           </ul>
         </>
