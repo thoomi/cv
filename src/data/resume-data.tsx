@@ -8,7 +8,7 @@ export const RESUME_DATA: ResumeData = {
   about: "Senior Software Engineer for Machine Learning",
   summary: (
     <>
-      I’m an accomplished software engineer who makes machine learning work in production. At Bosch, I co-created the ML framework that became the backbone for multiple teams, enabling smoother collaboration and faster experimentation. My work spans from optimizing training pipelines to deploying models on embedded systems—always with a focus on reliability and real-world impact.
+      I’m an accomplished software engineer who makes machine learning work in production. At Bosch, I co-created the ML framework that became the backbone for multiple teams, enabling smoother collaboration and faster experimentation. My work spans from optimizing training pipelines to deploying models on embedded systems — always with a focus on reliability and real-world impact.
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/4013007?v=4",
