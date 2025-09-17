@@ -110,8 +110,8 @@ export const RESUME_DATA: ResumeData = {
       link: "https://www.yazio.com",
       badges: [],
       title: "Full Stack Web Developer",
-      start: "2021",
-      end: "2024",
+      start: "2014",
+      end: "2017",
       description: (
         <>
           <ul className="list-inside list-disc">
