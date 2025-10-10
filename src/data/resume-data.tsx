@@ -55,19 +55,22 @@ export const RESUME_DATA: ResumeData = {
         <>
           <ul className="list-inside list-disc">
             <li>
-              Transformed the stack from single-camera networks to spatio-temporal multi-view networks
+              Co-Creator xflow: reusable training modules to facilitate collaboration in teams {">"} 50 devs
+            </li>
+            <li>
+              Software architecture that boosted training efficiency for a multi-view, multi-task network and enabled seamless integration of temporal and task-specific data
+            </li>
+            <li>
+              Streamlined training workflows, significantly lowering compute time and resource costs
+            </li>
+            <li>
+              We Transformed the stack from single-camera networks to spatio-temporal multi-view networks
             </li>
             <li>
               Close collaboration with corporate research
             </li>
             <li>
               Successful customer demos of urban hands-free driving using solely cameras (vision only)
-            </li>
-            <li>
-              Software framework that boosted training efficiency for a multi-view, multi-task network and enabled seamless integration of temporal and task-specific data
-            </li>
-            <li>
-              Streamlined training workflows, significantly lowering compute time and resource costs
             </li>
             <li>
              Conducted technical interviews and coding assessments, helping hire strong engineers for the team
@@ -93,10 +96,7 @@ export const RESUME_DATA: ResumeData = {
               Multi Task CNNs (Semantic Segmentation, 3d Object Detection, Object Tracking, …)
             </li>
             <li>
-              Co-Creator xflow: reusable training modules to facilitate collaboration in teams {">"} 50 devs
-            </li>
-            <li>
-              Continuous & reproducible data parallel trainings on AzureML
+              Continous & reproducible data parallel trainings on AzureML
             </li>
             <li>
               Real-time optimization & automatic deployment into the car (TensorRT, ONNX)
