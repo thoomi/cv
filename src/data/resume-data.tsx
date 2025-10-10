@@ -110,7 +110,7 @@ export const RESUME_DATA: ResumeData = {
         <>
           <ul className="list-inside list-disc">
             <li>
-              Built and maintained high-traffic web APIs (Symfony2, Redis, PostgreSQL) serving >1M monthly users.
+              Built and maintained high-traffic web APIs (Symfony2, Redis, PostgreSQL) serving {">"}1M monthly users.
             </li>
             <li>
               Automated deployments with Ansible and implemented backend monitoring for reliability and speed.
