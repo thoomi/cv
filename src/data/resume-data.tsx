@@ -8,7 +8,7 @@ export const RESUME_DATA: ResumeData = {
   about: "Senior Software Engineer for Machine Learning",
   summary: (
     <>
-      I’m an accomplished software engineer who makes machine learning work in production. At Bosch, I co-created the ML framework that became the backbone for multiple teams, enabling smoother collaboration and faster experimentation. My work spans from optimizing training pipelines to deploying models on embedded systems — always with a focus on reliability and real-world impact.
+      I’m an accomplished software engineer who makes machine learning work in production. At Bosch, I built tools and infrastructure that empower teams to train, deploy, and monitor models efficiently - bridging research ideas and real-world products. My work focuses on clean architecture, automation, and performance optimization to help ML deliver consistent value at scale.
     </>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/4013007?v=4",
@@ -55,25 +55,22 @@ export const RESUME_DATA: ResumeData = {
         <>
           <ul className="list-inside list-disc">
             <li>
-              Co-Creator xflow: reusable training modules to facilitate collaboration in teams {">"} 50 devs
+              Architected and co-created xflow, a modular ML training and deployment framework now used by 10+ teams across Bosch.
             </li>
             <li>
-              Software architecture that boosted training efficiency for a multi-view, multi-task network and enabled seamless integration of temporal and task-specific data
+              Designed and optimized data and model pipelines, cutting down training iteration time and compute costs.
             </li>
             <li>
-              Streamlined training workflows, significantly lowering compute time and resource costs
+              Migrated the perception stack from single-view CNNs to a multi-view spatio-temporal system, improving robustness and accuracy.
             </li>
             <li>
-              We Transformed the stack from single-camera networks to spatio-temporal multi-view networks
+              Engineered reproducible training and inference workflows with Docker, AzureML, and CI/CD integration.
             </li>
             <li>
-              Close collaboration with corporate research
+              Collaborated closely with corporate research to bring state-of-the-art models into production, including ONNX/TensorRT optimizations for embedded deployment.
             </li>
             <li>
-              Successful customer demos of urban hands-free driving using solely cameras (vision only)
-            </li>
-            <li>
-             Conducted technical interviews and coding assessments, helping hire strong engineers for the team
+              Promoted code quality through reviews, best practices, and leading technical interviews for incoming engineers.
             </li>
           </ul>
         </>
@@ -90,16 +87,13 @@ export const RESUME_DATA: ResumeData = {
         <>
           <ul className="list-inside list-disc">
             <li>
-              Deep Learning based camera perception for automated driving
+              Developed and maintained model pipelines for object detection and tracking on automotive datasets.
             </li>
             <li>
-              Multi Task CNNs (Semantic Segmentation, 3d Object Detection, Object Tracking, …)
+              Deployed and benchmarked models with TensorRT, achieving real-time inference on embedded GPUs.
             </li>
             <li>
-              Continous & reproducible data parallel trainings on AzureML
-            </li>
-            <li>
-              Real-time optimization & automatic deployment into the car (TensorRT, ONNX)
+              Improved training reproducibility and evaluation by automating dataset versioning and experiment tracking.
             </li>
           </ul>
         </>
@@ -116,10 +110,10 @@ export const RESUME_DATA: ResumeData = {
         <>
           <ul className="list-inside list-disc">
             <li>
-              Successfully developed a high performance & responsive website, seen by over a million people per month
+              Built and maintained high-traffic web APIs (Symfony2, Redis, PostgreSQL) serving >1M monthly users.
             </li>
             <li>
-              Built a scalable and resilient Symfony2 REST API, served by Nginx and enhanced with a Redis caching layer, using Ansible for efficient server and development environment management
+              Automated deployments with Ansible and implemented backend monitoring for reliability and speed.
             </li>
           </ul>
         </>
@@ -127,14 +121,19 @@ export const RESUME_DATA: ResumeData = {
     },
   ],
   skills: [
+    "Python",
+    "C++",
+    "Bash",
     "Torch",
     "Tensorflow",
-    "Python",
-    "AzureML & DevOps",
-    "Model deployment",
-    "Object Detection & Tracking",
-    "CUDA",
-    "Training optimization",
+    "ONNX",
+    "TensorRT,
+    "Docker",
+    "AzureML",
+    "CI/CD",
+    "Architecture Design",
+    "Data Pipelines",
+    "API Development"    
   ],
   projects: [
   ],
