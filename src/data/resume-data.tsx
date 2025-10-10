@@ -127,7 +127,7 @@ export const RESUME_DATA: ResumeData = {
     "Torch",
     "Tensorflow",
     "ONNX",
-    "TensorRT,
+    "TensorRT",
     "Docker",
     "AzureML",
     "CI/CD",
